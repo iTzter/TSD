@@ -1,0 +1,14 @@
+{
+  "1": {
+    "name": "Red Dragon Mouse",
+    "image": "https://raw.githubusercontent.com/user/repo/main/images/mouse1.jpg",
+    "download": "https://raw.githubusercontent.com/user/repo/main/files/mouse1.zip",
+    "inf_name": "install.inf"
+  },
+  "2": {
+    "name": "Neon Blue",
+    "image": "https://raw.githubusercontent.com/user/repo/main/images/mouse2.jpg",
+    "download": "https://raw.githubusercontent.com/user/repo/main/files/mouse2.zip",
+    "inf_name": "install.inf"
+  }
+}

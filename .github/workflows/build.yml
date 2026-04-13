@@ -1,0 +1,21 @@
+name: Build EXE
+on: [push] # هيشتغل لوحده كل ما ترفع كود جديد
+
+jobs:
+  build:
+    runs-on: windows-latest # هيفتح جهاز ويندوز عند جيتهاب
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+    - name: Install PyInstaller
+      run: pip install pyinstaller
+    - name: Create EXE
+      run: pyinstaller --onefile main.py # تأكد ان ملفك اسمه main.py
+    - name: Upload Result
+      uses: actions/upload-artifact@v4
+      with:
+        name: MyProgram-EXE
+        path: dist/*.exe
