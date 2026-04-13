@@ -1,0 +1,2 @@
+Mouse_Blue|https://site.com/preview1.jpg|https://site.com/mouse1.zip
+Mouse_Neon|https://site.com/preview2.jpg|https://site.com/mouse2.zip
